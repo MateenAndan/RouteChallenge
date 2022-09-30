@@ -15,7 +15,7 @@ public class Main {
         List<Flight> flightList = routeService.createFlight(routeList);
 
 
-        String validFlightPath = routeService.findPath(flightList,"ACC","LHR");
+        String validFlightPath = routeService.findPath(flightList,"ACC","YWG");
         System.out.println(validFlightPath);
 
     }
